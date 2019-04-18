@@ -1,0 +1,26 @@
+CREACION DE UN CICLO
+
+Iniciar numero_sandwiches en cero
+while(numero_sandwiches es menor que 10) {
+     hacerSandwich();
+     suma uno a numero_sandwiches
+}
+
+
+---------------
+
+
+Hacer 5 sandwiches Jamón y 10 de Bolonia
+
+ Iniciar numero_sandwiches en cero
+while(numero_sandwiches es menor que 5) {
+     hacerSandwichJamon();
+     suma uno a numero_sandwiches
+}
+
+Iniciar numero_sandwiches en cero
+while(numero_sandwiches es menor que 10) {
+    
+     hacerSandwichBolonia();
+     suma uno a numero_sandwiches
+}

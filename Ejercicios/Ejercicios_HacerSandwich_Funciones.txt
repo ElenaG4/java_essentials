@@ -1,0 +1,78 @@
+Pasos para realizar un sándwich
+
+1. Conseguir los siguientes ingredientes: Pan, crema, jamón, aguacate, chile jalapeño de lata, jitomate, cebolla
+2. Lavar las verduras (jitomate, cebolla, aguacate)
+3. rebanar en rodajas el jitomate y colocarlo en un recipiente
+4. rebanar un poco de cebolla en rodajas
+5. Tomar dos rebanadas de pan y colocarles crema a ambas rebanadas con una cuchara
+6. colocar las rebanadas con crema en un plato
+7. En una rebanada de pan colocar jamón al gusto 
+8. Colocar sobre la misma rebanada aguacate, jitomate, cebolla y chile al gusto 
+9. Tomar la segunda rebanada y colocarla encima
+10.Colocar el sándwich en el plato y degustar
+
+
+---------------------------------------------------------------------------------------
+
+COMO HACER 2 SANDWICHES
+
+hacerSandwich();
+hacerSandwich();
+
+---------------------------------------------------------------------------------------
+
+EJERCICIO FUNCIONES
+
+//FUNCION HACER PAN
+hacerPan(){
+	plantarTrigo();
+	cuidarSiembra();
+	cosecharTrigo();
+	hacerHarina();
+	añadirAguaLevadura();
+	hornearPan();
+}
+
+//FUNCION CONSEGUIR JAMON
+conseguirJamon(){
+	ciarCerdos();
+	sacrificarCerdod();
+	hacerJamon();
+}
+
+//FUNCION CONSEGUIR CREMA
+conseguirCrema(){
+	ordeñarVaca();
+	hacerCrema();
+}
+
+//CONSEGUIR TOMATES
+conseguitTomates(){
+	plantarTomate();
+	cuidarSiembra();
+	cosecharTomate();
+}
+
+//CONSEGUIR LECHUGA
+conseguirLechuga(){
+	plantarLechuga();
+	cuidarSiembra();
+	cosecharLechuga();
+}
+
+//PREPARAR UN SANDWICH
+prepararSandwich(){
+	cortarPan();
+	tomarRebanadas();
+	encontrarCuchillo();
+	aplicarCrema();
+	limpiarCuchillo();
+	lavarLechugaTomate();
+	cortarLechugaTomate();
+	ponerRebanadaJamon();
+	ponerPanEncima();
+	encontrarPlato();
+	ponerSanwitchPlato();
+}
+
+---------------------------------------------------------------------------------
