@@ -1,0 +1,36 @@
+//DESCRIPCION SUBPROCESOS EN FUNCIONES
+
+//Realizar Login
+ingresarSongsBySinatra(){
+	abrirNavegador();
+	ingresarURLSongsBySinatra();
+	validarPaginaImagenSinatraLigaLogin();
+	seleccionarLogin();
+	validarCamposIngresoUsuarioContraseña();
+	ingresarUsuarioContraseña();
+	clickLogin();
+	validarMensaje();
+}
+
+//Crear una cancion nueva
+crearCancion(){
+	ingresarSongsBySinatra();
+	seleccionarSongs();
+	validarListaCancionesyOpciónCrearCanción();
+	seleccionarCreateNewSong();
+	validarFormulario();
+	ingresarInformaciónFormulario(); 
+	presionarBotónSaveSong();
+	validarMensajeCancionAgregada();
+}
+
+//Borrar una cancion
+borrarCancion(){
+	ingresarSongsBySinatra();
+	seleccionarSongs();
+	validarListaCanciones();
+	seleccionarCancionEliminar();
+	presionarBotonDelete();
+	validarMensajeSongDeleted();
+}
+

@@ -1,6 +1,6 @@
-Pasos para realizar un sándwich
+﻿Pasos para realizar un sándwich
 
-1. Conseguir los siguientes ingredientes: Pan, crema, jamón, aguacate, chile jalapeño de lata, jitomate, cebolla
+1. Conseguir los siguientes ingredientes: Pan, crema, jamón, aguacate, chile jalapeño, jitomate, cebolla
 2. Lavar las verduras (jitomate, cebolla, aguacate)
 3. rebanar en rodajas el jitomate y colocarlo en un recipiente
 4. rebanar un poco de cebolla en rodajas
@@ -35,7 +35,7 @@ hacerPan(){
 
 //FUNCION CONSEGUIR JAMON
 conseguirJamon(){
-	ciarCerdos();
+	criarCerdos();
 	sacrificarCerdod();
 	hacerJamon();
 }

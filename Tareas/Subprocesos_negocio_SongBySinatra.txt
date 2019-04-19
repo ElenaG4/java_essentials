@@ -1,0 +1,36 @@
+//PROCESOS DE NEGOCIO DE SONGS BY SINATRA
+
+//Realizar Login
+ingresarSongsBySinatra(){
+	abrir navegador
+	ingresar a la URL de Songs By Sinatra
+	validar que se muestre pagina con imagen de Sinatra con liga login
+	seleccionar opción Login
+	validar que se muestren campos para ingreso de usuario y contraseña
+	ingresar usuario y contraseña
+	dar click en login
+	validar que se muestre mensaje You are now logged in as frank
+}
+
+//Crear una cancion nueva
+crearCancion(){
+	ingresarSongsBySinatra();
+	seleccionar opción Songs
+	validar que se muestre lista de canciones y opción para crear nueva canción
+	seleccionar opción Create a new song
+	validar que se muestre formulario con opciones Title, Length, Date y Lyrics
+	ingresar información del formulario 
+	presionar botón Save Song
+	validar que se muestre mensaje "Song successfully added" junto con la informacion de la canción agregada
+}
+
+//Borrar una cancion
+borrarCancion(){
+ingresarSongsBySinatra();
+	seleccionar opción Songs
+	validar que se muestre lista de canciones
+	seleccionar la cancion a eliminar
+	presionar boton Delete this song
+	validar que se muestre mensaje Song deleted
+}
+
